@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(240, 248, 233);
+    height: 1500px;
+}
+
+.main-container{
+    background: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 800px;
+}
+
+.container{
+position: relative;
+}
+
+
+
+
+.logo h1 a{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    letter-spacing: 20px;
+    font-size: 36px;
+    border: 1px solid;
+    padding: 10px 125px;
+    background: rgb(148, 164, 164);
+    color: #fff;
+    border-radius: 1000px;
+    left: 180px;
+    top: 80px;
+    text-decoration: none;
+}
+
+.logo h1 a:hover{
+    background: rgb(205, 217, 215);
+    color: grey;
+    cursor: pointer;
+}
+
+.menu-top{
+    position: relative;
+    background: red;
+}
+
+.menu-top-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    left: 1px;
+ 
+}
+.menu-top-items li{
+    padding: 20px 100px;
+    color: grey;
+    border-bottom: 1px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgb(205, 217, 215);
+    background: blue;
+}
+.menu-top-items li:hover{
+    background: rgb(148, 164, 164);
+    cursor: pointer;
+    color: #fff;
+    
+}
